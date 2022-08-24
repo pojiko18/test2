@@ -1,0 +1,248 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 共通 */
+
+  .parallax-bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 35%;      
+}
+
+.parallax-bg.cd-bg-1{
+    background-image: url(../images/haikeiリサイズ.jpg);
+}
+
+.parallax-bg.cd-bg-2{
+    background-image: url(../images/haikei3リサイズ.png);
+}
+
+.parallax-bg.cd-bg-3{
+    background-image: url(../images/haikei4リサイズ.jpg);
+}
+
+.parallax-bg.cd-bg-4{
+    background-image: url(../images/haikei2リサイズ.png);
+}
+
+/*
+header
+*/
+
+.t-header-nav{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+.toplogo{
+    width: 50px;
+}
+
+.t-header-nav-top{
+margin: 10px 0 0 15px;
+font-family: serif;
+}
+
+.t-header-nav-stage{
+    margin: 0 0 0 auto;
+}
+
+.t-header-nav-ul{
+    list-style-type: none;
+    margin: 15px 0 0px;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li a,
+header nav ul li a:link,
+header nav ul li a:visited{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000;
+}
+header nav ul li a:hover{
+    color: #888;
+}
+
+/*
+//header
+*/
+
+/* top */
+.t-header-self{
+    padding:30%;
+    text-align: center;
+    color: white;
+    font-family: serif;
+    font-size: 30px;
+}
+
+/* //top */
+
+/*parsonal*/
+.m-parsonal{
+    justify-content: center;
+    width: auto;
+    padding-top: 20%;
+}
+
+.m-parsonal-color{
+    padding: 20px;
+    background-color: rgba(75, 74, 74, 0.5);
+}
+
+.m-parsonal-title{
+    font-size: 50px;
+    text-align: center;
+    color:white;
+    top: 0;
+    right: 700px;
+    margin-bottom: 30px;
+    font-family:serif;
+}
+
+.m-parsonal-stage{
+    text-align: center;
+    color:white;
+    width: auto;
+    margin: auto;
+    font-size: 25px;
+    margin-bottom: 90px;
+}
+
+.m-parsonal-sub-tltle{
+    font-size: 20px;
+    font-family:serif;
+}
+
+.m-parsonal-list{
+    list-style-type: none;
+}
+
+.m-parsonal-item{
+    color:white;
+    width: auto;
+    margin: auto;
+    font-size: 25px;
+}
+
+.m-parsonal-sub{
+    font-size: 20px;
+    font-family:serif;
+    font-weight: bold;
+}
+
+.m-parsonal-small{
+    text-align: left;
+    margin-right: 3em;
+    display: inline-block;
+}
+
+/*//parsonal*/
+
+/*neet*/
+.m-neet{
+    justify-content: center;
+    width: auto;
+    padding-top: 20%;
+}
+
+.m-neet-color{
+    padding: 20px;
+    background-color: rgba(75, 74, 74, 0.5);
+}
+
+.m-neet-title{
+    font-size: 50px;
+    text-align: center;
+    color:white;
+    top: 0;
+    right: 700px;
+    margin-bottom: 30px;
+    font-family:serif;
+}
+
+.m-neet-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.m-neet-box-title{
+    color:white;
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-family: serif;
+}
+
+.m-neet-schedule{
+    padding-left: 30px;
+    color:white;
+    width: auto;
+    margin: auto;
+    font-size: 25px;
+}
+
+/* //neet */
+
+/* goal */
+.m-goal{
+    justify-content: center;
+    width: auto;
+    padding-top: 20%;
+}
+
+.m-goal-color{
+    padding: 20px;
+    background-color: rgba(75, 74, 74, 0.5);
+}
+
+.m-goal-title{
+    font-size: 50px;
+    text-align: center;
+    color:white;
+    top: 0;
+    right: 700px;
+    margin-bottom: 30px;
+    font-family:serif;
+}
+
+.m-goal-item{
+    color:white;
+    width: auto;
+    margin: auto;
+    font-size: 25px;
+    border: 1px solid rgb(253, 227, 177);
+}
+
+.m-goal-stage{
+    font-size: 20px;
+    font-family:serif;
+    font-weight: bold;
+}
+
+.m-goal-sub{
+    font-size: 20px;
+    font-family:serif;
+    font-weight: bold;
+}
+
+.m-goal-small{
+    text-align: left;
+    padding-left: 5px;
+    padding-right:50px;
+}
+
+.m-goal-sumall-sub{
+    text-align: left;
+    padding-left: 5px;
+    padding-right:100px;
+}

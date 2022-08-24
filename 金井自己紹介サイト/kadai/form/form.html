@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>フォーム</title>
+</head>
+
+<body>
+    <form action="program.php" method="post">
+        <dl>
+            <dt>形だけのフォーム</dt>
+            <dd></dd>
+            <dt><label for="name">お名前</label><span class="astarisc">*</span></dt>
+            <dd><input type="text" name="name" id="name" required placeholder="田中　太郎"></dd>
+            <dt><label for="kana">ふりがな</label><span class="astarisc">*</span></dt>
+            <dd><input type="text" name="kana" id="kana" required placeholder="たなか　たろう"></dd>
+            <dt><label for="email">メールアドレス</label><span class="astarisc">*</span></dt>
+            <dd><input type="email" name="email" id="email" required placeholder="sample@test.com"></dd>
+            <dt><label for="gender">性別</label></dt>
+            <dd><label><input type="radio" name="gender" id="gender" value="男">男</label>
+                <label><input type="radio" name="gender" value="女">女</label>
+            </dd>
+            <dt><label for="how">どこでお知りになりましたか</label></dt>
+            <dd>
+                <select name="how" id="how">
+                    <option value="選択なし"></option>
+                    <option value="ついったー">ついったー</option>
+                    <option value="ついったー">ついったー</option>
+                    <option value="ついったー">ついったー</option>
+                    <option value="ついったー">ついったー</option>
+                </select>
+            </dd>
+            <dt><label for="comment">お問い合わせ</label></dt>
+            <dd>
+                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="自由に記入"></textarea>
+            </dd>
+        </dl>
+        <button type="submit" name="送信">送信</button>
+    </form>
+
+    <div class="toppage">
+        <a href="../index.html">トップページに戻る</a>
+    </div>
+</body>
